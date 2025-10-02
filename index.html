@@ -1,17 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Mi nuevo sitio web</title>
-    <meta name="description" content="Este es mi sitio web en GitHub Pages, donde comparto mis proyectos y aprendizajes.">
 
-    <!-- ícono de pestaña -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
+    <title>Facundo Lázaro | Portafolio Profesional</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Portfolio en Construccion</h1>
+    <!-- NAVBAR CENTRADO -->
+    <nav class="navbar">
+      <div class="logo">Facundo Lázaro</div>
+      <ul class="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="perfil-marco">
+          <img src="./cv.png" alt="Facundo Lázaro" />
+        </div>
+        <h1>Facundo Lázaro</h1>
+        <p>
+          Estudiante de Desarrollo de Software | Desarrollador Web con
+          herramientas HTML, CSS, JavaScript, React, Python y MySQL
+        </p>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Facundo Lázaro, Estudiante de Desarrollo de Software con experiencia en
+        HTML, CSS, JavaScript, React, Vite, Python, Java, PHP, PostgreSQL.
+        Formado academicamente para crear soluciones eficientes y seguras.
+        Aportando mis conocimientos en desarrollo para diseñar aplicaciones
+        robustas, optimizadas y centradas en la usabilidad
+      </p>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+      <h2>Proyectos Destacados</h2>
+      <div class="proyectos-container">
+        <div class="proyecto-card">
+          <img src="./proyecto1.jpg" alt="Proyecto 1" />
+          <h3>Todo Jeans</h3>
+          <p>
+            Todo Jeans es una tienda online especializada en la venta de prendas
+            de mezclilla. El sitio web está desarrollado utilizando HTML, CSS y
+            JavaScript para ofrecer una experiencia de usuario atractiva y
+            funcional. Cuenta con un catálogo de productos, un carrito de
+            compras interactivo y un sistema de pago seguro, facilitando a los
+            clientes la compra de sus prendas favoritas desde la comodidad de su
+            hogar.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <div class="contacto-content">
+        <p>
+          Email:
+          <a href="mailto:LazaroFacundoDaniel19@gmail.com"
+            >LazaroFacundoDaniel19@gmail.com</a
+          >
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/facundolazaro/" target="_blank"
+            >Perfil</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/FacundoLazaro" target="_blank">Perfil</a>
+        </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
